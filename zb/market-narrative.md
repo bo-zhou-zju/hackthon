@@ -1,15 +1,16 @@
 # AI 好奇心引擎 · 市场叙事 v0.3
 
-> **版本**：v0.3.1
+> **版本**：v0.3.2
 > **更新历史**：
 > - v0.1：5 轮讨论的市场叙事骨架（已归档到 `zb/former/`）
 > - v0.3.0：基于 v0.4 决策完全收敛 + ESA / JoySchooler 浅查发现重写
-> - **v0.3.1：50 州对比调研后，§二 目标市场 章节重写——去除 ESA 中心化，明确 Arizona 选择逻辑**
+> - v0.3.1：50 州对比 v0.2 后，§二 目标市场 章节重写——去除 ESA 中心化
+> - **v0.3.2：50 州对比 v0.3 Top 5 深挖后，§二 评分表更新——AZ/NC/CO 上调至 4.5 星**
 > **配合文档**：
 > - 决策基线：`zb/决策记录.md` (v0.4)
 > - 数据基础：`zb/调研1.md`、`zb/调研2.md`
 > - 浅查发现：`zb/ESA浅查结果.md`、`zb/JoySchooler浅查结果.md`
-> - **50 州对比**：`zb/50州数据对比.md`（v0.2，含 10 州详细数据）
+> - **50 州对比**：`zb/50州数据对比.md`（v0.3，含 Top 5 深挖数据）
 > **维护**：每次重大决策更新后同步修订本文档
 
 ---
@@ -100,17 +101,24 @@ ESA 在第 6 步（"怎么付"），不是市场选择的核心
 | **ESA / 政府资金通道** | 🟡 中（支付工具，非核心）| EdChoice / State ESA Tracker |
 | **已有 AI 教育产品渗透** | 🟢 低 | 间接估算 |
 
-### 2.4 50 州对比结果（v0.2 调研，详见 `zb/50州数据对比.md`）
+### 2.4 50 州对比结果（v0.3 调研，详见 `zb/50州数据对比.md`）
 
-#### Top 5 候选 beachhead（4 星）
+#### Top 5 候选 beachhead（v0.3 评分上调后）
 
-| 排名 | 州 | 关键优势 | 关键风险 | ESA |
-|---|---|---|---|---|
-| **1（首发）** | **Arizona** | East Valley 自定向社群密集 + ASU Herberger Young Scholars 等 gifted 项目 + 富裕家庭 | ESA 可买 AI 不确定 | ✅ 全美最成熟 |
-| 1 | Texas | 人口最多 + 无监管限制 + Dallas Cassidy Younghans 自定向社群 | 无 ESA 通道 | ❌ |
-| 1 | Florida | 增速 46%（5 年）+ ESA + 富裕家庭 | DeSantis 政府保守 | ✅ |
-| 1 | North Carolina | ESA universal choice（2024 新通过）+ ALC Mosaic 自定向社群 | ESA 资金不足 | ✅ |
-| 1 | Colorado | 自定向教育圣地 + 富裕 + 教育理念高度契合 | 无 ESA + 规模小 | ❌ |
+| 排名 | 州 | 关键优势 | 关键风险 | ESA | 评分 |
+|---|---|---|---|---|---|
+| **1（首发）** | **Arizona** | East Valley 自定向社群密集 + 富裕家庭 + 我们能实际到场 | ESA 可买 AI 不确定 | ✅ 100K+ 学生 | ⭐⭐⭐⭐⭐ |
+| 2 | North Carolina | ESA universal choice（2024 新通过）+ ALC Mosaic 自定向社群 | ESA 资金不足 | ✅ 100K+ 学生 | ⭐⭐⭐⭐⭐ |
+| 3 | Colorado | 自定向教育圣地 + Heartwood/Off-Trail 多个 ALC + 富裕 + 教育理念高度契合 | 无 ESA + 规模小 | ❌ | ⭐⭐⭐⭐⭐ |
+| 4 | Texas | 人口最多 + 无监管限制 + Dallas Cassidy Younghans 自定向社群 + 增速确认 | 无 ESA + 州太大 | ❌ | ⭐⭐⭐⭐ |
+| 5 | Florida | 增速 46%（5 年）+ FES-UA + 富裕家庭 | DeSantis 政府保守 | ✅ | ⭐⭐⭐⭐ |
+
+**v0.3 评分上调的关键发现**：
+- **Arizona**：找到 ESA 精确数字（72,428 → 100,000+）
+- **North Carolina**：ESA 100,000+ 学生具体数字 + universal choice 新机会
+- **Colorado**：JHU 详细报告 + Heartwood ALC + Off-Trail Learning 具体名称
+
+**关键结论**：**Arizona 不再是"明显最优"**——NC 和 CO 在多项指标上已追平甚至超过。
 
 #### 第二梯队（3 星）
 
