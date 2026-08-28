@@ -1,16 +1,17 @@
 # AI 好奇心引擎 · 市场叙事 v0.3
 
-> **版本**：v0.3.2
+> **版本**：v0.3.3
 > **更新历史**：
 > - v0.1：5 轮讨论的市场叙事骨架（已归档到 `zb/former/`）
 > - v0.3.0：基于 v0.4 决策完全收敛 + ESA / JoySchooler 浅查发现重写
 > - v0.3.1：50 州对比 v0.2 后，§二 目标市场 章节重写——去除 ESA 中心化
-> - **v0.3.2：50 州对比 v0.3 Top 5 深挖后，§二 评分表更新——AZ/NC/CO 上调至 4.5 星**
+> - v0.3.2：50 州对比 v0.3 Top 5 深挖后，§二 评分表更新——AZ/NC/CO 上调至 4.5 星
+> - **v0.3.3：50 州对比 v0.4 后，§二 评分表最终版——TX/FL 也上调至 4.5 星，5 州并列**
 > **配合文档**：
 > - 决策基线：`zb/决策记录.md` (v0.4)
 > - 数据基础：`zb/调研1.md`、`zb/调研2.md`
 > - 浅查发现：`zb/ESA浅查结果.md`、`zb/JoySchooler浅查结果.md`
-> - **50 州对比**：`zb/50州数据对比.md`（v0.3，含 Top 5 深挖数据）
+> - **50 州对比**：`zb/50州数据对比.md`（v0.4，最终版 5 州 4.5 星并列）
 > **维护**：每次重大决策更新后同步修订本文档
 
 ---
@@ -101,24 +102,28 @@ ESA 在第 6 步（"怎么付"），不是市场选择的核心
 | **ESA / 政府资金通道** | 🟡 中（支付工具，非核心）| EdChoice / State ESA Tracker |
 | **已有 AI 教育产品渗透** | 🟢 低 | 间接估算 |
 
-### 2.4 50 州对比结果（v0.3 调研，详见 `zb/50州数据对比.md`）
+### 2.4 50 州对比结果（v0.4 调研，详见 `zb/50州数据对比.md`）
 
-#### Top 5 候选 beachhead（v0.3 评分上调后）
+#### Top 5 候选 beachhead（v0.4 最终版：5 州并列 4.5 星）
 
 | 排名 | 州 | 关键优势 | 关键风险 | ESA | 评分 |
 |---|---|---|---|---|---|
-| **1（首发）** | **Arizona** | East Valley 自定向社群密集 + 富裕家庭 + 我们能实际到场 | ESA 可买 AI 不确定 | ✅ 100K+ 学生 | ⭐⭐⭐⭐⭐ |
-| 2 | North Carolina | ESA universal choice（2024 新通过）+ ALC Mosaic 自定向社群 | ESA 资金不足 | ✅ 100K+ 学生 | ⭐⭐⭐⭐⭐ |
-| 3 | Colorado | 自定向教育圣地 + Heartwood/Off-Trail 多个 ALC + 富裕 + 教育理念高度契合 | 无 ESA + 规模小 | ❌ | ⭐⭐⭐⭐⭐ |
-| 4 | Texas | 人口最多 + 无监管限制 + Dallas Cassidy Younghans 自定向社群 + 增速确认 | 无 ESA + 州太大 | ❌ | ⭐⭐⭐⭐ |
-| 5 | Florida | 增速 46%（5 年）+ FES-UA + 富裕家庭 | DeSantis 政府保守 | ✅ | ⭐⭐⭐⭐ |
+| **1（首发）** | **Arizona** | **我们能立即触达**（East Valley EVAC + AFHE + AAGT） | ESA 可买 AI 不确定 | ✅ 100K+ 学生 | ⭐⭐⭐⭐⭐ |
+| 2 | **North Carolina** | ESA universal choice + 100K+ 学生 + ALC Mosaic | 资金 waitlist | ✅ 100K+ 学生 | ⭐⭐⭐⭐⭐ |
+| 3 | **Colorado** | 自定向教育圣地 + Heartwood/Off-Trail 多个 ALC + 富裕 | 无 ESA + 规模小 | ❌ | ⭐⭐⭐⭐⭐ |
+| 4 | **Texas** | 人口最多 + Harris County #1 增长 + 无监管 | 无 ESA | ❌ | ⭐⭐⭐⭐⭐ ↑ |
+| 5 | **Florida** | **53% K-12 教育选择渗透率**（全美最高之一）+ FES-UA + 46% 5 年增长 | $3,738 资金缺口 + DeSantis | ✅ | ⭐⭐⭐⭐⭐ ↑ |
 
-**v0.3 评分上调的关键发现**：
-- **Arizona**：找到 ESA 精确数字（72,428 → 100,000+）
-- **North Carolina**：ESA 100,000+ 学生具体数字 + universal choice 新机会
-- **Colorado**：JHU 详细报告 + Heartwood ALC + Off-Trail Learning 具体名称
+**v0.4 评分上调的关键发现**：
+- **Texas**：Harris County #1 在"离开公立去 homeschool" + 人口红利
+- **Florida**：53% K-12 教育选择渗透率（全美最高之一）+ 5 年 46% 增长
 
-**关键结论**：**Arizona 不再是"明显最优"**——NC 和 CO 在多项指标上已追平甚至超过。
+**v0.4 关键修正**：
+- **ESA 人均金额**：~$3,300/年（远低于之前 $7,000-$30,000 估算）
+- **AZ ESA 总成本**：$332M（Tucson Sentinel 2024）
+- **FL ESA 缺口**：$3,738/学生（Teach Coalition 研究）
+
+**关键结论**：**5 个州全部 4.5 星并列**——Arizona 仅凭"我们能立即触达"作为首发理由，**不是数据上的最优**。
 
 #### 第二梯队（3 星）
 
@@ -130,15 +135,29 @@ ESA 在第 6 步（"怎么付"），不是市场选择的核心
 | Pennsylvania | gifted 强 + 自定向社群在 + 无 ESA |
 | New York | 监管严 + 无 ESA + 自定向社群存在 |
 
-### 2.5 为什么是 Arizona（v0.3.1 修正论证）
+### 2.5 为什么是 Arizona（v0.3.3 最终修正论证）
 
-**三大真实理由**（不再是 ESA 中心化）：
+**关键澄清**：在 v0.4 数据对比中，**Arizona 与其他 4 个候选州（NC/CO/TX/FL）评分并列 4.5 星**。Arizona 不是数据上的最优，而是**我们执行能力上的最优**。
 
-1. **Self-directed 社群密度可验证**
+**选 Arizona 的唯一核心理由：**
+
+> **我们能立即触达 + 其他 4 个州我们不能**
+
+| 我们的执行能力 | Arizona | NC | CO | TX | FL |
+|---|---|---|---|---|---|
+| 团队能到现场 | ✅ East Valley EVAC / AFHE / AAGT | ⚠️ 远程难 | ⚠️ 远程难 | ❌ 州太大 | ⚠️ 远程难 |
+| 已识别具体社群 | ✅ EVAC 几百家庭 + ISDA + AFHE | 🟡 ALC Mosaic 存在 | 🟡 Heartwood/Off-Trail | 🟡 Dallas SDLC | 🟡 Not Exactly FL |
+| 当地人脉 | 🟢（待确认）| ❌ 无 | ❌ 无 | ❌ 无 | ❌ 无 |
+| 比赛前可演示 | ✅ Phoenix 展会 | ❌ 远 | ❌ 远 | ❌ 远 | ❌ 远 |
+
+**Arizona 三大执行优势**：
+
+1. **Self-directed 社群可触达**
    - Arizona Families for Home Education（AFHE）
    - East Valley Athletic Coalition（EVAC）—— 几百个 homeschool 家庭参与的体育联盟
    - Arizona Association for Gifted and Talented（AAGT）
    - ASU Herberger Young Scholars Academy
+   - ISDA Community Learning Center（211 Arizona 注册）
    - 多个 FB 群组、co-op、meetup
 
 2. **富裕家庭比例 + 教育支出能力**
@@ -146,15 +165,18 @@ ESA 在第 6 步（"怎么付"），不是市场选择的核心
    - 中产 + 上中产家庭集中
    - ESA 资金 + 自费补充 = 已有付费习惯
 
-3. **我们能实际触达**
+3. **我们能实际触达（这是核心差异化）**
    - 我们可在 EVAC / AFHE / AAGT 活动中现场演示
    - 可直接参加 Phoenix homeschool 展会
    - 地理集中 = 低 CAC
+   - 比赛前可做出真实 demo
 
 **ESA 现在只是"加分项"**：
 - 未来可成为 ESA vendor 增加支付通道
 - MVP 阶段不依赖 ESA
-- ESA 资金可用性待深查（详见 `zb/ESA浅查结果.md`）
+- **ESA 人均金额仅 ~$3,300/年**（远低于之前 $7,000-$30,000 估算）——见 v0.4 数据
+
+**重要**：如果比赛前我们拿到 NC/CO/TX/FL 的任何真实触达渠道（朋友 / 顾问 / 校友），可以**立即切换** beachhead。**Arizona 是首发选择，不是唯一选择**。
 
 ### 2.6 为什么不是"只 Arizona"
 
