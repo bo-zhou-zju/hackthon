@@ -1,13 +1,15 @@
 # AI 好奇心引擎 · 市场叙事 v0.3
 
-> **版本**：v0.3
+> **版本**：v0.3.1
 > **更新历史**：
 > - v0.1：5 轮讨论的市场叙事骨架（已归档到 `zb/former/`）
-> - **v0.3：基于 v0.4 决策完全收敛 + ESA / JoySchooler 浅查发现重写**
+> - v0.3.0：基于 v0.4 决策完全收敛 + ESA / JoySchooler 浅查发现重写
+> - **v0.3.1：50 州对比调研后，§二 目标市场 章节重写——去除 ESA 中心化，明确 Arizona 选择逻辑**
 > **配合文档**：
 > - 决策基线：`zb/决策记录.md` (v0.4)
 > - 数据基础：`zb/调研1.md`、`zb/调研2.md`
 > - 浅查发现：`zb/ESA浅查结果.md`、`zb/JoySchooler浅查结果.md`
+> - **50 州对比**：`zb/50州数据对比.md`（v0.2，含 10 州详细数据）
 > **维护**：每次重大决策更新后同步修订本文档
 
 ---
@@ -58,27 +60,125 @@
 
 ---
 
-## 二、目标市场（v0.3 重写）
+## 二、目标市场（v0.3.1 重写）
 
 ### 2.1 一句话市场切片
 
-> **首发市场**：亚利桑那凤凰城东谷（Chandler / Gilbert / Tempe）的 ESA + SEA教育理念家庭
+> **首发市场（beachhead）**：亚利桑那凤凰城东谷（Chandler / Gilbert / Tempe）的 **self-directed learning 家庭**——选 Arizona 不是因为 ESA，是因为这里有**最密集的自定向教育社群 + 富裕家庭 + 我们能实际触达**
 >
-> **50 州扩展**：用 `State ESA Tracker` 扫描全美 → top 5-10 州深入 → 验证多州 ESA 通道
+> **50 州扩展路径**：保留 5 个 4 星候选州（AZ / TX / FL / NC / CO）作为远景选项，**ESA 仅作为支付工具**，不作为选择 beachhead 的核心标准
 
-### 2.2 为什么是 beachhead + 50 州扩展（不是只 Arizona）
+### 2.2 核心修正：ESA 不在关键路径上（v0.4 反思）
 
-**评委必然会问**："为什么是 Arizona？美国有 50 个州。"
+**之前的错误认知**（v0.3 早期版本）：
+> "Arizona ESA 政策最成熟 → 所以是好的 beachhead"
+
+**修正后的认知**：
+> ESA 是**支付工具**（降低 CAC），**不是**选择 beachhead 的标准。
+> 关键路径是：**家长需求** → **孩子痛点** → **产品能解决** → **价格** → **怎么付**
+> ESA 只在最后一步"怎么付"起作用，不在前面的需求侧起作用。
+
+**家长的真实决策路径**：
+
+```
+1. 孩子有问题（痛点）→ 2. 我能解决吗？→ 3. 这产品能解决吗？
+4. → 5. 多少钱？→ 6. 怎么付？
+
+ESA 在第 6 步（"怎么付"），不是市场选择的核心
+```
+
+### 2.3 真正的 beachhead 选择标准（修正版）
+
+按重要性排序：
+
+| 标准 | 权重 | 评估方法 |
+|---|---|---|
+| **Self-directed / unschooling 社群密度** | 🔴 高 | Facebook 群组数 + Reddit + Meetup + ASDE 注册 |
+| **富裕家庭比例 + 教育支出能力** | 🔴 高 | Census ACS + 行业估算 |
+| **家长对 AI / 创新教育的接受度** | 🔴 高 | 反 AI 阻力评估 + 自定向社群活跃度 |
+| **法规对 homeschool 友好度** | 🟡 中 | HSLDA 评估 |
+| **ESA / 政府资金通道** | 🟡 中（支付工具，非核心）| EdChoice / State ESA Tracker |
+| **已有 AI 教育产品渗透** | 🟢 低 | 间接估算 |
+
+### 2.4 50 州对比结果（v0.2 调研，详见 `zb/50州数据对比.md`）
+
+#### Top 5 候选 beachhead（4 星）
+
+| 排名 | 州 | 关键优势 | 关键风险 | ESA |
+|---|---|---|---|---|
+| **1（首发）** | **Arizona** | East Valley 自定向社群密集 + ASU Herberger Young Scholars 等 gifted 项目 + 富裕家庭 | ESA 可买 AI 不确定 | ✅ 全美最成熟 |
+| 1 | Texas | 人口最多 + 无监管限制 + Dallas Cassidy Younghans 自定向社群 | 无 ESA 通道 | ❌ |
+| 1 | Florida | 增速 46%（5 年）+ ESA + 富裕家庭 | DeSantis 政府保守 | ✅ |
+| 1 | North Carolina | ESA universal choice（2024 新通过）+ ALC Mosaic 自定向社群 | ESA 资金不足 | ✅ |
+| 1 | Colorado | 自定向教育圣地 + 富裕 + 教育理念高度契合 | 无 ESA + 规模小 | ❌ |
+
+#### 第二梯队（3 星）
+
+| 州 | 状态 |
+|---|---|
+| California | 富裕但保守 + 无 ESA |
+| Washington | 西海岸 + 无 ESA + 自定向社群密度中等 |
+| Idaho | 法规最友好但人口少 + 无 ESA |
+| Pennsylvania | gifted 强 + 自定向社群在 + 无 ESA |
+| New York | 监管严 + 无 ESA + 自定向社群存在 |
+
+### 2.5 为什么是 Arizona（v0.3.1 修正论证）
+
+**三大真实理由**（不再是 ESA 中心化）：
+
+1. **Self-directed 社群密度可验证**
+   - Arizona Families for Home Education（AFHE）
+   - East Valley Athletic Coalition（EVAC）—— 几百个 homeschool 家庭参与的体育联盟
+   - Arizona Association for Gifted and Talented（AAGT）
+   - ASU Herberger Young Scholars Academy
+   - 多个 FB 群组、co-op、meetup
+
+2. **富裕家庭比例 + 教育支出能力**
+   - Phoenix East Valley（Chandler / Gilbert / Tempe）是 AZ 富裕区
+   - 中产 + 上中产家庭集中
+   - ESA 资金 + 自费补充 = 已有付费习惯
+
+3. **我们能实际触达**
+   - 我们可在 EVAC / AFHE / AAGT 活动中现场演示
+   - 可直接参加 Phoenix homeschool 展会
+   - 地理集中 = 低 CAC
+
+**ESA 现在只是"加分项"**：
+- 未来可成为 ESA vendor 增加支付通道
+- MVP 阶段不依赖 ESA
+- ESA 资金可用性待深查（详见 `zb/ESA浅查结果.md`）
+
+### 2.6 为什么不是"只 Arizona"
+
+评委必然问：**"为什么不是 Texas / Florida / NC / Colorado？"**
 
 **回应策略**：
-- 不是"只做 Arizona"——是"Arizona 是我们验证最深的 beachhead"
-- beachhead 选择理由（数据 + 政策 + 社群三重锁定）：
-  - ✅ ESA 政策全美最成熟（2011 年开始）
-  - ✅ 凤凰城东谷 ESA 家庭密度高
-  - ✅ homeschool + self-directed learning 社群活跃
-- 50 州扩展路径：State ESA Tracker（https://www.esatrackerbystate.com/compare）显示 AZ / FL / WV / TN / MS / NC 等 6+ 州都有 ESA，扩展路径清晰
+- Arizona 是我们**验证最深的** beachhead，但**不是唯一选择**
+- 50 州对比显示：4 个其他州（TX / FL / NC / CO）评分相同
+- 我们的扩展路径：
+  - **6-12 个月后**：扩展到 Florida / North Carolina（都已有 ESA）
+  - **12-24 个月后**：扩展到 Texas / Colorado（自定向社群密度高）
+- **不承诺**："Arizona 永远最优"——而是"我们先在这里验证，再扩展"
 
-### 2.3 ESA 知识要点（v0.4 浅查结论）
+### 2.7 扩展路径图
+
+```
+v0.3（现在）: Arizona beachhead 验证
+  ├─ MVP 12-18 个月: 1 个州 × 1 个城市群
+  │
+v0.4（6-12 个月后）:
+  ├─ 加入 Florida ESA（如果 ESA 通道验证可行）
+  ├─ 加入 North Carolina（universal choice 新机会）
+  │
+v0.5（12-24 个月后）:
+  ├─ 加入 Texas（人口红利）
+  ├─ 加入 Colorado（自定向社群密度高）
+  │
+v1.0（24+ 个月）:
+  └─ 多州并行 + 全国扩展
+```
+
+### 2.8 ESA 知识要点（v0.4 浅查结论）
 
 > 详细见 `zb/ESA知识库.md` 和 `zb/ESA浅查结果.md`
 
@@ -87,16 +187,17 @@
 - 流程：Service Provider Registration → 批准 → 家庭直接支付 vendor
 - ✅ 流程清晰，可成为 vendor
 - ⚠️ AI 软件订阅是否在标准批准清单**未明**——MVP 阶段假设不可行
+- 🎯 **ESA 远景定位**：作为"降 CAC 工具"，不作为"市场选择标准"
 
-### 2.4 年龄范围（v0.4 决策 2）
+### 2.9 年龄范围（v0.4 决策 2）
 
 | 阶段 | 年龄 | 理由 |
 |---|---|---|
-| **MVP** | **10-14 岁** | 已付费意愿强 + 好奇心仍在 + ESA 资金可用 + 家长仍能影响 |
+| **MVP** | **10-14 岁** | 已付费意愿强 + 好奇心仍在 + 家长仍能影响 |
 | 扩展期 | **6-14 岁** | 覆盖更大市场（含 6-9 岁"为什么"高峰） |
 | 不做 | 0-6 / 15+ | 0-6 太早无产品交互能力；15+ 更接近青少年自主学习产品 |
 
-### 2.5 多维切分方法（v0.4 决策 6）
+### 2.10 多维切分方法（v0.4 决策 6）
 
 **核心原则**：
 - ⚠️ **不**预设"族裔不能用"或"行为才正确"
@@ -125,6 +226,16 @@
 - v0.1 把族裔 × 阶层作为主轴
 - v0.3 把族裔/阶层作为**公平性变量**，不作为需求筛选条件
 - 调研中**全部采集**，pitch 中**不出现**族裔硬筛选
+
+### 2.11 v0.3 §二 vs 之前版本的关键差异
+
+| 维度 | v0.3 早期 / DOCX | v0.3.1 修正版 |
+|---|---|---|
+| Beachhead 论证核心 | ESA 政策最成熟 | **Self-directed 社群密度 + 富裕家庭 + 实际触达** |
+| ESA 定位 | 选择 beachhead 的标准 | **支付工具（降 CAC），不是市场选择** |
+| 50 州对比 | 未做 | **10 州扫描完成，5 个 4 星候选** |
+| 评委问"为什么是 Arizona" | 难回答 | **可回答：5 个 4 星候选之一，我们先深耕验证** |
+| 扩展路径 | 模糊 | **清晰的 6/12/24 月分阶段路径** |
 
 ---
 
