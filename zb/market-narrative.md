@@ -62,7 +62,7 @@
 
 ### 2.1 一句话市场切片
 
-> **首发市场**：亚利桑那凤凰城东谷（Chandler / Gilbert / Tempe）的 ESA + self-directed learning 家庭
+> **首发市场**：亚利桑那凤凰城东谷（Chandler / Gilbert / Tempe）的 ESA + SEA教育理念家庭
 >
 > **50 州扩展**：用 `State ESA Tracker` 扫描全美 → top 5-10 州深入 → 验证多州 ESA 通道
 
